@@ -120,6 +120,14 @@ export default function initConnection(socket: Socket) {
 
 ## Scalability
 
+The nature of the system design of our product allows for scalability. Each
+service can operate on its own independently from other services. So if one
+service goes down, the other services will still remaining running.
+
+Each service can be called by a HTTP request. If a certain HTTP request fails,
+our services have elaborate error handling code that allows other services to
+not completely crash and burn.
+
 ## Code
 
 1. [Frontend](https://www.github.com/galactus-player/web)
