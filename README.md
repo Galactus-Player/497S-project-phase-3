@@ -136,3 +136,5 @@ not completely crash and burn.
 4. [Sync Service](https://www.github.com/galactus-player/sync-service)
 
 ## Video
+
+[![DEMO VIDEO](https://img.youtube.com/vi/d62GDv-oJPA/0.jpg)](https://www.youtube.com/watch?v=d62GDv-oJPA)
